@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      //  var  ages=[10,12,18,20];
+      var  ages=[100,19,22,20];
+
+        document.write(ages+"<br>");
+       // var b= ages.some(checkadult);
+        var b= ages.every(checkadult);
+        document.write(b+"<br>");
+        function checkadult(age){
+            return age>18;
+
+        }
+    </script>
+    
+</body>
+</html>

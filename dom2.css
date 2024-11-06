@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+
+    margin-left: 30px;
+    background-color: blue;
+    height: 40px;
+    margin-top: 20px;
+
+}
+li{
+    padding: 0 30px;
+    width: 40;
+    height: 40px;
+}
+.header1{
+    margin-left:40px;
+}
+.content  {
+    margin-right: 30px;
+     
+}
+.abc{
+    background-color: crimson;
+}
+.bcd{
+    background: green;
+}
